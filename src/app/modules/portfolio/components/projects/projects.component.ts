@@ -23,6 +23,63 @@ public projectsArray = signal<IProjects[]>([
         href: '#',
       }
     ]
-  }
+  },
+  {
+    src: 'assets/img/projects/vfull.png',
+    alt: '',
+    title: "Project 1",
+    width: "100px",
+    height: "51px",
+    description: "",
+    links: [
+      {
+        name: 'Conheça o projeto',
+        href: '#',
+      }
+    ]
+  },
+  {
+    src: 'assets/img/projects/vfull.png',
+    alt: '',
+    title: "Project 1",
+    width: "100px",
+    height: "51px",
+    description: "",
+    links: [
+      {
+        name: 'Conheça o projeto',
+        href: '#',
+      }
+    ]
+  },
+  {
+    src: 'assets/img/projects/vfull.png',
+    alt: '',
+    title: "Project 1",
+    width: "100px",
+    height: "51px",
+    description: "",
+    links: [
+      {
+        name: 'Conheça o projeto',
+        href: '#',
+      }
+    ]
+  },
+  {
+    src: 'assets/img/projects/vfull.png',
+    alt: '',
+    title: "Project 1",
+    width: "100px",
+    height: "51px",
+    description: "",
+    links: [
+      {
+        name: 'Conheça o projeto',
+        href: '#',
+      }
+    ]
+  },
+
 ])
 }
