@@ -5,7 +5,7 @@
     @for(item of projectsArray(); track item){
 
     <li>
-      <button>
+      <button (click)="openDialog(item)">
         <img
           [src]="item.src"
           [alt]="item.alt"
