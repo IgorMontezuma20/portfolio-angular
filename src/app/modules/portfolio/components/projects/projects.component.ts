@@ -62,6 +62,36 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/daily.png',
+      alt: 'Projeto Daily Games',
+      title: 'Daily Games',
+      width: '100px',
+      height: '100px',
+      description:
+        '<p>Aplicação construída com Next.JS com o objetivo de buscar jogos que estão em alta e apresentar as informações dos mesmos. Os usuários podem procurar o jogo de seu endereço e também ver seus detalhes com: ano de lançamento, plataforma e categoria.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://daily-games-deploy.vercel.app/',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/paisesangular.png',
+      alt: 'Projeto Lista Países Angular',
+      title: 'Lista Países Angular',
+      width: '100px',
+      height: '100px',
+      description:
+        '<p>Projeto desenvolvido com o Angular com o objetivo de listar os paíeses e apresentar seus respectivos detalhes. Para obter os dados dos paíes foi utilizada a api Rest Countries.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://lista-paises-angular-7grq1wlkr-igormontezuma20.vercel.app/',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects){
