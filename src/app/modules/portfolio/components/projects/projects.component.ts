@@ -32,6 +32,36 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/paises.png',
+      alt: 'Projeto Lista Países Next.JS',
+      title: 'Lista Países Next.JS',
+      width: '100px',
+      height: '100px',
+      description:
+        '<p>Projeto desenvolvido com o Next 13 com o objetivo de listar os paíeses e apresentar seus respectivos detalhes. Para obter os dados dos paíes foi utilizada a api Rest Countries.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://lista-de-paises-nextjs.vercel.app/',
+        },
+      ],
+    },
+    {
+      src: 'assets/img/projects/pokedex.png',
+      alt: 'Projeto Pokedex',
+      title: 'Pokedex',
+      width: '100px',
+      height: '100px',
+      description:
+        '<p>Projeto de uma Pokedex desenvolvido com Angular. O projeto dá ao usuário a opçãod e pesquisar seu pokémon favorito e apresenta as características do mesmo.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://pokedex-angular-murex.vercel.app/',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects){
