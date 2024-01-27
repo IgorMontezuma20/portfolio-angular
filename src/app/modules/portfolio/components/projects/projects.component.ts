@@ -24,7 +24,7 @@ export class ProjectsComponent {
       width: '100px',
       height: '100px',
       description:
-        '<p>Sistema de Help Desk construído em Next.JS (Versão 14). O sistema conta com as funcionalidades de cadastrar usuários, chamados e cliente, podendo listar e filtrar os mesmos. A aplicação utilizou as funcionalidades adicionadas no Nexat.Js 14.</p>',
+        '<p>Sistema de Help Desk construído em Next.JS (Versão 14). O sistema conta com as funcionalidades de cadastrar usuários, chamados e cliente, podendo listar e filtrar os mesmos. A aplicação utilizou as funcionalidades adicionadas no Next.Js 14.</p>',
       links: [
         {
           name: 'Conheça o projeto',
