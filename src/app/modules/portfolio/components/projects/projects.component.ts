@@ -92,6 +92,21 @@ export class ProjectsComponent {
         },
       ],
     },
+    {
+      src: 'assets/img/projects/todo.png',
+      alt: 'Projeto Lista de tarefas Angular',
+      title: 'Lista de tarefas Angular',
+      width: '100px',
+      height: '100px',
+      description:
+        '<p>Projeto de uma lista de tarefas desenvolvida com Angular 17, que conta com as funcionalidades de: Criar uma tarefa, editar seu nome, alterar seu estado e remover a mesma. Neste projeto pude revisar conceitos como comunicação entre componentes e praticar as novas diretivas implementadas, assim como a responsividade da aplicação.</p>',
+      links: [
+        {
+          name: 'Conheça o projeto',
+          href: 'https://todo-angular-amber-kappa.vercel.app/',
+        },
+      ],
+    },
   ]);
 
   public openDialog(data: IProjects){
